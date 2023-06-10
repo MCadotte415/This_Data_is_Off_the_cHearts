@@ -20,4 +20,7 @@ The Cleveland dataset was defined, cleaned, and analyzed to answer pertinent que
 We plan on using the heart attack prediction dataset to create multiple machine learning models. We will then analyze the models based on multiple criteria to find which were the best fit for this data set
 
 ## Model Performance
-
+![accuracy](images/accuracy.png)
+In terms of accuracy of the model, random forrests and decision trees performed the best.
+![accuracy](images/confusion.png)
+A 
