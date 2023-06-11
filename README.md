@@ -23,4 +23,4 @@ We plan on using the heart attack prediction dataset to create multiple machine 
 ![accuracy](images/accuracy.png)
 In terms of accuracy of the model, random forrests and decision trees performed the best.
 ![accuracy](images/confusion.png)
-A 
+As for the confusion matrix, where we see the models performance in correctly predicting the 1 and 0 values, random forrests and logistigc regression performed best. 
