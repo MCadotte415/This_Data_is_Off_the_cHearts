@@ -24,3 +24,14 @@ We plan on using the heart attack prediction dataset to create multiple machine 
 In terms of accuracy of the model, random forrests and decision trees performed the best.
 ![accuracy](images/confusion.png)
 As for the confusion matrix, where we see the models performance in correctly predicting the 1 and 0 values, random forrests and logistigc regression performed best. 
+![recall](images/recal.png)
+Recall and Precision give performance metrics to the confusion matrix. Recall is the true positive rate, foung using the formula: recall= TP/(TP+FN). Precision on the other hand, refers to the proportion of true positive values out of all the predicted vales. Precison uses the formula: Precision= TP/(TP+FP)
+
+In the case of our models, random forrests, logistic regression and decision trees were the top performers.
+
+![f1](images/f1.png)
+F1 score is a harmonic, balanced mean between the recall and precision scores. Using the formula, F1 Score = 2 * (Precision * Recall) / (Precision + Recall), the F1 score gives a more equal weight to both scores. For our models, again random forrests, logistic regression and decision trees were the top performers.
+
+Despite how promising logistic regression was from the perfomance metrics, its accuracy was never as good as decision tree and random forrest. In the end, we chose the decision trees and random forrest as our two models which could best predict the heart attack data!
+
+## Best Models Analysis
