@@ -65,3 +65,9 @@ For Random Forest, we performed a Random Over Sampler and then converted the dat
 For Decision Tree, 
 
 ## References 
+## References
+- 2023 edX Boot Camps LLC
+- Kaggle dataset
+- YouTube
+- Stack Overflow
+
