@@ -4,10 +4,10 @@ Table of Contents
 1. [Introduction](#introduction)
 2. [Objective](#objective)
 3. [Installation](#installation)
-4. [Data Analysis](#dataanalysis)
-5. [Visualizations](#visualizations)
-6. [Model Comparison](#modelcomparison)
-7. [Best Models Analysis](#bestmodelsanalysis)
+4. [Data Analysis](#data-analysis)
+5. [Visualization](#visualization)
+6. [Model Comparison](#model-comparison)
+7. [Best Models Analysis](#best-models-analysis)
 8. [References](#references)
 
 ## Introduction
@@ -36,6 +36,8 @@ As for the analysis in Tableau, it revealed more of an unbalanced data set. When
 
 <img src="images/sex_target.png" alt="tableau" width="150" height="300">
 
+## Visualization
+
 ## Model Comparison
 ![accuracy](images/accuracy.png)
 In terms of accuracy of the model, random forests and decision trees performed the best.
@@ -60,3 +62,5 @@ For Random Forest, we performed a Random Over Sampler and then converted the dat
 <img src="images/rand_forest.png" alt="forest" width="400" height="200">
 
 For Decision Tree, 
+
+## References 
