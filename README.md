@@ -5,9 +5,9 @@ Table of Contents
 2. [Objective](#objective)
 3. [Installation](#installation)
 4. [Data Analysis](#dataanalysis)
-5. [Model Comparison](#modelcomparison)
-6. [Best Models Analysis](#bestmodelsanalysis)
-7. [Visualizations](#visualizations)
+5. [Visualizations](#visualizations)
+6. [Model Comparison](#modelcomparison)
+7. [Best Models Analysis](#bestmodelsanalysis)
 8. [References](#references)
 
 ## Introduction
