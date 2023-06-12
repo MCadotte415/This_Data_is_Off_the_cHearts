@@ -22,6 +22,7 @@ We plan on using the heart attack prediction dataset to create multiple machine 
 
 ## Installation
 The packages needed for these models are as follows:
+![installation](images/instal.png)
 
 Next, a SQL table was created and the connection was formed through sqlite. This connection was used to read in the Heart data CSV file. 
 
@@ -32,6 +33,8 @@ The columns in this data set were age, sex, chest pain, resting blood pressure, 
 Upon analysis in Jupyter notebook found that the data was about a 60/40 split for the target values. And for the sex it was divided into 207 men and 96 women. We also looked into the chest pain distribution, with the highest reported was angina. In the age distribution we saw that the ages were from about 30 to 90, with the peak being around 57-60.
 
 As for the analysis in Tableau, it revealed more of an unbalanced data set. When broken down by target value and gender, we see that 75% of the women sampled have a high chance of heart attack, whereas the men are sampled at about 50/50. Almost 100% of the women sampled with a low chance of heart attack, are in the ranges of age 55-66. Although this may not have directly affected our model accuracy, there is some kind of bias in the data, which in a machine learning model,  could potentially be replicated.
+
+<img src="images/sex_target.png" alt="tableau" width="150" height="300">
 
 ## Model Comparison
 ![accuracy](images/accuracy.png)
@@ -53,5 +56,7 @@ Despite how promising logistic regression was from the perfomance metrics, its a
 In both the Random Forest and the Decision Tree we used 1 as the random state. The data was split into X_train, X_test, y_train, y_test with, x being the data frame and y being the target value, and then scaled using StandardScaler.
 
 For Random Forest, we performed a Random Over Sampler and then converted the data frame into dummies. The scaled and resampled data was then fit into the Random Forest Classifier and resulted in an accuracy score of 80%. The model was then optimized by dropping columns "fbs","restecg" and "sex". This improved the model and resulted in this classification report:
+
+<img src="images/rand_forest.png" alt="forest" width="400" height="200">
 
 For Decision Tree, 
