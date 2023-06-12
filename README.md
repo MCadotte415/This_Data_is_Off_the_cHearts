@@ -4,10 +4,11 @@ Table of Contents
 1. [Introduction](#introduction)
 2. [Objective](#objective)
 3. [Installation](#installation)
-4. [Model Performance](#modelperformance)
-5. [Best Models Analysis](#bestmodelsanalysis)
-6. [Visualizations](#visualizations)
-7. [References](#references)
+4. [Data Analysis](#dataanalysis)
+5. [Model Comparison](#modelcomparison)
+6. [Best Models Analysis](#bestmodelsanalysis)
+7. [Visualizations](#visualizations)
+8. [References](#references)
 
 ## Introduction
 
@@ -20,8 +21,19 @@ The Cleveland dataset was defined, cleaned, and analyzed to answer pertinent que
 We plan on using the heart attack prediction dataset to create multiple machine learning models. We will then analyze the models based on multiple criteria to find which were the best fit for this data set
 
 ## Installation
+The packages needed for these models are as follows:
 
-## Model Performance
+Next, a SQL table was created and the connection was formed through sqlite. This connection was used to read in the Heart data CSV file. 
+
+## Data Analysis
+
+The columns in this data set were age, sex, chest pain, resting blood pressure, cholesterol, fasting blood sugar, rest ecg, max heart rate, exercise induced angina (1 = yes; 0 = no), ST depression on ecg (oldpeak), slope: the slope of the peak exercise ST segment, ca: number of major vessels (0-3) colored by flourosopy, thal: 3 = normal; 6 = fixed defect; 7 = reversable defect and the target value (0 or 1).
+
+Upon analysis in Jupyter notebook found that the data was about a 60/40 split for the target values. And for the sex it was divided into 207 men and 96 women. We also looked into the chest pain distribution, with the highest reported was angina. In the age distribution we saw that the ages were from about 30 to 90, with the peak being around 57-60.
+
+As for the analysis in Tableau, it revealed more of an unbalanced data set. When broken down by target value and gender, we see that 75% of the women sampled have a high chance of heart attack, whereas the men are sampled at about 50/50. Almost 100% of the women sampled with a low chance of heart attack, are in the ranges of age 55-66. Although this may not have directly affected our model accuracy, there is some kind of bias in the data, which in a machine learning model,  could potentially be replicated.
+
+## Model Comparison
 ![accuracy](images/accuracy.png)
 In terms of accuracy of the model, random forests and decision trees performed the best.
 ![accuracy](images/confusion.png)
