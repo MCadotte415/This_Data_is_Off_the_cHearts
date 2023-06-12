@@ -64,7 +64,10 @@ For Random Forest, we performed a Random Over Sampler and then converted the dat
 
 <img src="images/rand_forest.png" alt="forest" width="500" height="250">
 
-For Decision Tree, 
+For Decision Tree, we gainedinsight into the decisions the model makes as it lays out all possible outcomes.  
+To optimize the accuracy of the model the Fasting Blood Sugar(FBS) column was dropped. The Tree had an accuracy of 75%
+Cross Validation was also used to improve the accuracy an additional 5%
+ 
 
 ## Tableau URL
 https://public.tableau.com/app/profile/jessica.trusler/viz/dashboard1_16865914825150/Dashboard2
