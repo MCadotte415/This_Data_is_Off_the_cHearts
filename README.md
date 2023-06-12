@@ -48,7 +48,8 @@ Recall and Precision give performance metrics to the confusion matrix. Recall is
 
 In the case of our models, random forests, logistic regression and decision trees were the top performers.
 
-![f1](images/f1.png)
+<img src="images/f1.png" alt="f1" width="650" height="300">
+
 F1 score is a harmonic, balanced mean between the recall and precision scores. Using the formula, F1 Score = 2 * (Precision * Recall) / (Precision + Recall), the F1 score gives a more equal weight to both scores. For our models, again random forrests, logistic regression and decision trees were the top performers.
 
 Despite how promising logistic regression was from the perfomance metrics, its accuracy was never as good as decision tree and random forest. In the end, we chose the decision trees and random forrest as our two models which could best predict the heart attack data!
@@ -59,7 +60,7 @@ In both the Random Forest and the Decision Tree we used 1 as the random state. T
 
 For Random Forest, we performed a Random Over Sampler and then converted the data frame into dummies. The scaled and resampled data was then fit into the Random Forest Classifier and resulted in an accuracy score of 80%. The model was then optimized by dropping columns "fbs","restecg" and "sex". This improved the model and resulted in this classification report:
 
-<img src="images/rand_forest.png" alt="forest" width="400" height="200">
+<img src="images/rand_forest.png" alt="forest" width="500" height="250">
 
 For Decision Tree, 
 
