@@ -8,7 +8,8 @@ Table of Contents
 5. [Visualization](#visualization)
 6. [Model Comparison](#model-comparison)
 7. [Best Models Analysis](#best-models-analysis)
-8. [References](#references)
+8. [Tableau URL](#tableau-url)
+9. [References](#references)
 
 ## Introduction
 
@@ -64,10 +65,15 @@ For Random Forest, we performed a Random Over Sampler and then converted the dat
 
 For Decision Tree, 
 
-## References 
+## Tableau URL
+https://public.tableau.com/app/profile/jessica.trusler/viz/dashboard1_16865914825150/Dashboard2
+https://public.tableau.com/app/profile/jessica.trusler/viz/comparison_dash/Dashboard1?publish=yes
+https://public.tableau.com/app/profile/jessica.trusler/viz/comparison_dash2/Dashboard1?publish=yes
 ## References
 - 2023 edX Boot Camps LLC
 - Kaggle dataset
 - YouTube
 - Stack Overflow
+- Jupyter Notebook
+- Tableau
 
