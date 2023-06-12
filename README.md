@@ -38,6 +38,7 @@ As for the analysis in Tableau, it revealed more of an unbalanced data set. When
 <img src="images/sex_target.png" alt="tableau" width="150" height="300">
 
 ## Visualization
+<img src="images/heatmap.png" alt="f1" width="400" height="200">
 
 ## Model Comparison
 ![accuracy](images/accuracy.png)
@@ -71,7 +72,7 @@ https://public.tableau.com/app/profile/jessica.trusler/viz/comparison_dash/Dashb
 https://public.tableau.com/app/profile/jessica.trusler/viz/comparison_dash2/Dashboard1?publish=yes
 ## References
 - 2023 edX Boot Camps LLC
-- Kaggle dataset
+- Kaggle dataset (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - YouTube
 - Stack Overflow
 - Jupyter Notebook
